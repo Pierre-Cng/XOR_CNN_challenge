@@ -1,0 +1,27 @@
+500 epochs
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 97ms/step - accuracy: 0.7500 - loss: 0.6004
+Model accuracy: 75.00%
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 66ms/step
+Predictions:
+Input: [0 0] -> Predicted: 0.4918, Rounded: 0, Excpected: 0
+Input: [0 1] -> Predicted: 0.4917, Rounded: 0, Excpected: 1
+Input: [1 0] -> Predicted: 0.6092, Rounded: 1, Excpected: 1
+Input: [1 1] -> Predicted: 0.4051, Rounded: 0, Excpected: 0
+1000 epochs
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 96ms/step - accuracy: 0.7500 - loss: 0.5073
+Model accuracy: 75.00%
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 69ms/step
+Predictions:
+Input: [0 0] -> Predicted: 0.3700, Rounded: 0, Excpected: 0
+Input: [0 1] -> Predicted: 0.3700, Rounded: 0, Excpected: 1
+Input: [1 0] -> Predicted: 0.8951, Rounded: 1, Excpected: 1
+Input: [1 1] -> Predicted: 0.3700, Rounded: 0, Excpected: 0
+5000 epochs
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 90ms/step - accuracy: 1.0000 - loss: 0.0144
+Model accuracy: 100.00%
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 52ms/step
+Predictions:
+Input: [0 0] -> Predicted: 0.0245, Rounded: 0, Excpected: 0
+Input: [0 1] -> Predicted: 0.9973, Rounded: 1, Excpected: 1
+Input: [1 0] -> Predicted: 0.9948, Rounded: 1, Excpected: 1
+Input: [1 1] -> Predicted: 0.0245, Rounded: 0, Excpected: 0

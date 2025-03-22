@@ -1,0 +1,166 @@
+Epoch [0/500], Loss: 0.7004
+Epoch [10/500], Loss: 0.4393
+Epoch [20/500], Loss: 0.3618
+Epoch [30/500], Loss: 0.3519
+Epoch [40/500], Loss: 0.3504
+Epoch [50/500], Loss: 0.3487
+Epoch [60/500], Loss: 0.3478
+Epoch [70/500], Loss: 0.3474
+Epoch [80/500], Loss: 0.3472
+Epoch [90/500], Loss: 0.3471
+Epoch [100/500], Loss: 0.3470
+Epoch [110/500], Loss: 0.3469
+Epoch [120/500], Loss: 0.3469
+Epoch [130/500], Loss: 0.3468
+Epoch [140/500], Loss: 0.3468
+Epoch [150/500], Loss: 0.3468
+Epoch [160/500], Loss: 0.3468
+Epoch [170/500], Loss: 0.3467
+Epoch [180/500], Loss: 0.3467
+Epoch [190/500], Loss: 0.3467
+Epoch [200/500], Loss: 0.3467
+Epoch [210/500], Loss: 0.3467
+Epoch [220/500], Loss: 0.3467
+Epoch [230/500], Loss: 0.3467
+Epoch [240/500], Loss: 0.3467
+Epoch [250/500], Loss: 0.3467
+Epoch [260/500], Loss: 0.3478
+Epoch [270/500], Loss: 0.3492
+Epoch [280/500], Loss: 0.3481
+Epoch [290/500], Loss: 0.3473
+Epoch [300/500], Loss: 0.3470
+Epoch [310/500], Loss: 0.3468
+Epoch [320/500], Loss: 0.3468
+Epoch [330/500], Loss: 0.3467
+Epoch [340/500], Loss: 0.3467
+Epoch [350/500], Loss: 0.3467
+Epoch [360/500], Loss: 0.3467
+Epoch [370/500], Loss: 0.3467
+Epoch [380/500], Loss: 0.3467
+Epoch [390/500], Loss: 0.3467
+Epoch [400/500], Loss: 0.3467
+Epoch [410/500], Loss: 0.3467
+Epoch [420/500], Loss: 0.3466
+Epoch [430/500], Loss: 0.3466
+Epoch [440/500], Loss: 0.3466
+Epoch [450/500], Loss: 0.3466
+Epoch [460/500], Loss: 0.3485
+Epoch [470/500], Loss: 0.3472
+Epoch [480/500], Loss: 0.3471
+Epoch [490/500], Loss: 0.3574
+--------------------
+Predictions:
+Input: [0.0, 0.0] -> Predicted: 0.0001, Rounded: 0, Excpected: 0.0
+Input: [0.0, 1.0] -> Predicted: 0.4751, Rounded: 0, Excpected: 1.0
+Input: [1.0, 0.0] -> Predicted: 0.9993, Rounded: 1, Excpected: 1.0
+Input: [1.0, 1.0] -> Predicted: 0.4751, Rounded: 0, Excpected: 0.0
+
+
+
+==========================================================================
+Epoch [0/1000], Loss: 0.7051
+Epoch [10/1000], Loss: 0.5351
+Epoch [20/1000], Loss: 0.2611
+Epoch [30/1000], Loss: 0.0741
+Epoch [40/1000], Loss: 0.0266
+Epoch [50/1000], Loss: 0.0136
+Epoch [60/1000], Loss: 0.0087
+Epoch [70/1000], Loss: 0.0066
+Epoch [80/1000], Loss: 0.0054
+Epoch [90/1000], Loss: 0.0046
+Epoch [100/1000], Loss: 0.0040
+Epoch [110/1000], Loss: 0.0036
+Epoch [120/1000], Loss: 0.0032
+Epoch [130/1000], Loss: 0.0029
+Epoch [140/1000], Loss: 0.0026
+Epoch [150/1000], Loss: 0.0024
+Epoch [160/1000], Loss: 0.0022
+Epoch [170/1000], Loss: 0.0020
+Epoch [180/1000], Loss: 0.0019
+Epoch [190/1000], Loss: 0.0017
+Epoch [200/1000], Loss: 0.0016
+Epoch [210/1000], Loss: 0.0015
+Epoch [220/1000], Loss: 0.0014
+Epoch [230/1000], Loss: 0.0013
+Epoch [240/1000], Loss: 0.0013
+Epoch [250/1000], Loss: 0.0012
+Epoch [260/1000], Loss: 0.0011
+Epoch [270/1000], Loss: 0.0011
+Epoch [280/1000], Loss: 0.0010
+Epoch [290/1000], Loss: 0.0010
+Epoch [300/1000], Loss: 0.0009
+Epoch [310/1000], Loss: 0.0009
+Epoch [320/1000], Loss: 0.0008
+Epoch [330/1000], Loss: 0.0008
+Epoch [340/1000], Loss: 0.0008
+Epoch [350/1000], Loss: 0.0007
+Epoch [360/1000], Loss: 0.0007
+Epoch [370/1000], Loss: 0.0007
+Epoch [380/1000], Loss: 0.0006
+Epoch [390/1000], Loss: 0.0006
+Epoch [400/1000], Loss: 0.0006
+Epoch [410/1000], Loss: 0.0006
+Epoch [420/1000], Loss: 0.0005
+Epoch [430/1000], Loss: 0.0005
+Epoch [440/1000], Loss: 0.0005
+Epoch [450/1000], Loss: 0.0005
+Epoch [460/1000], Loss: 0.0005
+Epoch [470/1000], Loss: 0.0005
+Epoch [480/1000], Loss: 0.0004
+Epoch [490/1000], Loss: 0.0004
+Epoch [500/1000], Loss: 0.0004
+Epoch [510/1000], Loss: 0.0004
+Epoch [520/1000], Loss: 0.0004
+Epoch [530/1000], Loss: 0.0004
+Epoch [540/1000], Loss: 0.0004
+Epoch [550/1000], Loss: 0.0004
+Epoch [560/1000], Loss: 0.0003
+Epoch [570/1000], Loss: 0.0003
+Epoch [580/1000], Loss: 0.0003
+Epoch [590/1000], Loss: 0.0003
+Epoch [600/1000], Loss: 0.0003
+Epoch [610/1000], Loss: 0.0003
+Epoch [620/1000], Loss: 0.0003
+Epoch [630/1000], Loss: 0.0003
+Epoch [640/1000], Loss: 0.0003
+Epoch [650/1000], Loss: 0.0003
+Epoch [660/1000], Loss: 0.0003
+Epoch [670/1000], Loss: 0.0003
+Epoch [680/1000], Loss: 0.0003
+Epoch [690/1000], Loss: 0.0003
+Epoch [700/1000], Loss: 0.0002
+Epoch [710/1000], Loss: 0.0002
+Epoch [720/1000], Loss: 0.0002
+Epoch [730/1000], Loss: 0.0002
+Epoch [740/1000], Loss: 0.0002
+Epoch [750/1000], Loss: 0.0002
+Epoch [760/1000], Loss: 0.0002
+Epoch [770/1000], Loss: 0.0002
+Epoch [780/1000], Loss: 0.0002
+Epoch [790/1000], Loss: 0.0002
+Epoch [800/1000], Loss: 0.0002
+Epoch [810/1000], Loss: 0.0002
+Epoch [820/1000], Loss: 0.0002
+Epoch [830/1000], Loss: 0.0002
+Epoch [840/1000], Loss: 0.0002
+Epoch [850/1000], Loss: 0.0002
+Epoch [860/1000], Loss: 0.0002
+Epoch [870/1000], Loss: 0.0002
+Epoch [880/1000], Loss: 0.0002
+Epoch [890/1000], Loss: 0.0002
+Epoch [900/1000], Loss: 0.0002
+Epoch [910/1000], Loss: 0.0002
+Epoch [920/1000], Loss: 0.0002
+Epoch [930/1000], Loss: 0.0002
+Epoch [940/1000], Loss: 0.0002
+Epoch [950/1000], Loss: 0.0001
+Epoch [960/1000], Loss: 0.0001
+Epoch [970/1000], Loss: 0.0001
+Epoch [980/1000], Loss: 0.0001
+Epoch [990/1000], Loss: 0.0001
+--------------------
+Predictions:
+Input: [0.0, 0.0] -> Predicted: 0.0002, Rounded: 0, Excpected: 0.0
+Input: [0.0, 1.0] -> Predicted: 1.0000, Rounded: 1, Excpected: 1.0
+Input: [1.0, 0.0] -> Predicted: 1.0000, Rounded: 1, Excpected: 1.0
+Input: [1.0, 1.0] -> Predicted: 0.0002, Rounded: 0, Excpected: 0.0

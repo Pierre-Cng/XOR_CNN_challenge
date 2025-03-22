@@ -1,0 +1,91 @@
+Trainset lenght: 60000
+Total batch number in trainloader: 469
+torch.Size([128, 1, 28, 28])
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 16, 13, 13]             160
+       BatchNorm2d-2           [-1, 16, 13, 13]              32
+         LeakyReLU-3           [-1, 16, 13, 13]               0
+            Conv2d-4             [-1, 32, 5, 5]          12,832
+       BatchNorm2d-5             [-1, 32, 5, 5]              64
+         LeakyReLU-6             [-1, 32, 5, 5]               0
+            Conv2d-7             [-1, 64, 1, 1]          51,264
+       BatchNorm2d-8             [-1, 64, 1, 1]             128
+         LeakyReLU-9             [-1, 64, 1, 1]               0
+          Flatten-10                   [-1, 64]               0
+           Linear-11                    [-1, 1]              65
+================================================================
+Total params: 64,545
+Trainable params: 64,545
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.08
+Params size (MB): 0.25
+Estimated Total Size (MB): 0.33
+----------------------------------------------------------------
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+   ConvTranspose2d-1            [-1, 256, 3, 3]         147,712
+       BatchNorm2d-2            [-1, 256, 3, 3]             512
+              ReLU-3            [-1, 256, 3, 3]               0
+   ConvTranspose2d-4            [-1, 128, 6, 6]         524,416
+       BatchNorm2d-5            [-1, 128, 6, 6]             256
+              ReLU-6            [-1, 128, 6, 6]               0
+   ConvTranspose2d-7           [-1, 64, 13, 13]          73,792
+       BatchNorm2d-8           [-1, 64, 13, 13]             128
+              ReLU-9           [-1, 64, 13, 13]               0
+  ConvTranspose2d-10            [-1, 1, 28, 28]           1,025
+             Tanh-11            [-1, 1, 28, 28]               0
+================================================================
+Total params: 747,841
+Trainable params: 747,841
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.00
+Forward/backward pass size (MB): 0.42
+Params size (MB): 2.85
+Estimated Total Size (MB): 3.27
+----------------------------------------------------------------
+Epochs: 1 | D_loss: 0.6834636488194659 | G_loss: 0.6930294064824769
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.9464199..0.99521357].
+Epochs: 2 | D_loss: 0.677230355200737 | G_loss: 0.7131228863811696
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.90081596..0.95833385].
+Epochs: 3 | D_loss: 0.6361639811031854 | G_loss: 0.7594989118799726
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.7922227..0.99989414].
+Epochs: 4 | D_loss: 0.6059897427619901 | G_loss: 0.8043211492648257
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.7290453..0.99999994].
+Epochs: 5 | D_loss: 0.5919627690874437 | G_loss: 0.8396889666504443
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.6502205..0.99999994].
+Epochs: 6 | D_loss: 0.592973952735665 | G_loss: 0.8566240092584574
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.704792..1.0].
+Epochs: 7 | D_loss: 0.6024150924641949 | G_loss: 0.8586659047649359
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.6163914..1.0].
+Epochs: 8 | D_loss: 0.6087570599655607 | G_loss: 0.8626215690488754
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.57607925..1.0].
+Epochs: 9 | D_loss: 0.5949454467688033 | G_loss: 0.8913288004616938
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.35317376..1.0].
+Epochs: 10 | D_loss: 0.5849749969521056 | G_loss: 0.9133745196785754
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.5502635..1.0].
+Epochs: 11 | D_loss: 0.593183104671649 | G_loss: 0.9094608096934077
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.3325264..1.0].
+Epochs: 12 | D_loss: 0.6081612577824704 | G_loss: 0.897114221983627
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.3474289..1.0].
+Epochs: 13 | D_loss: 0.6158854361536152 | G_loss: 0.8902105624233482
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.2866168..1.0].
+Epochs: 14 | D_loss: 0.6193132894888107 | G_loss: 0.8909859739895314
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.33546236..1.0].
+Epochs: 15 | D_loss: 0.6231511802053147 | G_loss: 0.8858084739652524
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.26511967..1.0].
+Epochs: 16 | D_loss: 0.6234627377503971 | G_loss: 0.8852281158666875
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.38139987..1.0].
+Epochs: 17 | D_loss: 0.6247237812735633 | G_loss: 0.8863549748463417
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.41871887..1.0].
+Epochs: 18 | D_loss: 0.6234273413605274 | G_loss: 0.8897832172003382
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.2745942..1.0].
+Epochs: 19 | D_loss: 0.6225912272294701 | G_loss: 0.8907032878414146
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.24538441..1.0].
+Epochs: 20 | D_loss: 0.6230946750020676 | G_loss: 0.8949389410679782
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.33358938..1.0].
